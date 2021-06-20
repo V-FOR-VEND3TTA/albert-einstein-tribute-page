@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+header {
+  padding: 15px;
+  background-color: #555;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li a:hover {
+  color: rgb(194, 194, 62);
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(194, 194, 62);
+}
+
+.hero {
+  max-height: 100vh;
+  max-width: 100vw;
+  background-image: url();
+  background-size: cover;
+}
